@@ -48,4 +48,23 @@
 
 ## Chapter 7: User Input and While Loops
 
- - 
+ - Can use `while(list)` is equivalent to while that list is not equal to empty
+ - Can remove specific instances of a word. `while 'cat' in pets: pets.remove('cat')`
+
+ ## Chapter 8: Functions
+
+ - Dictionaries can be something that can be returned
+ - Pass in a copy of a list to a function `func(list_name[:])`
+ - Pass an arbitrary amount of arguments to the function: `func(*args)`
+ - Double asteriks build a new dictionary for as many values passed in: `func(**args)`
+ - Modules, just importing files. As in, `pizzas.py`, import pizzas, use pizzas.makePizza() etc
+ - `from module_name import function_name` is useful
+ - Import a function `as` something to assign an alias
+
+## Chapter 9: Classes
+
+ - To create a child class of a parent class, merely include the parent's name in parens. `class ElectricCar(Car)`
+ - To inherit a parent's `init` function, use `super`. `super().__init__(make, model, year)`
+ - Separate files out into separate modules with classes. Again, `from filename import class`
+ - If you just import the module, you'll have to use `module.class.method` nomenclature instead of `class.method` if you import a specific class
+- `choice()` is a Python standard library included function that takes in a list and returns a randomly selected element/
