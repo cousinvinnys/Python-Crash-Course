@@ -67,4 +67,17 @@
  - To inherit a parent's `init` function, use `super`. `super().__init__(make, model, year)`
  - Separate files out into separate modules with classes. Again, `from filename import class`
  - If you just import the module, you'll have to use `module.class.method` nomenclature instead of `class.method` if you import a specific class
-- `choice()` is a Python standard library included function that takes in a list and returns a randomly selected element/
+- `choice()` is a Python standard library included function that takes in a list and returns a randomly selected element
+
+## Chapter 10: Files and Exceptions
+
+ - Ability to read in lines and store them in a list. `lines = file_object.readlines()`
+ - Use `try except` blocks to isolate exception objects and handle them
+ - `split()` splits a string into a list of words.
+ - When an error is thrown, you can "fail silently" and just use the keyword `pass` when handling an exception object
+ - `json.dump(data, filename)` and `json.load(filename)` are useful for dumping data into a file and reading it for later.
+
+ ## Chapter 11: Testing Your Code
+
+ - `self.assertEqual(userInput, thingToBeComparedWith)`
+ - Assert methods to help with asserting that something is equal. However I believe this is only useful within the testing harness. If more issues arise with lack of knowledge regarding this topic, refer to Chapter 11. 
